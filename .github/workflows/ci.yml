@@ -3,7 +3,7 @@ name: Test and Auto-Merge
 on:
     pull_request:
         branches:
-            - "**"
+            - "main"
 
 permissions:
     contents: write
